@@ -132,3 +132,19 @@ a {
     align-items: center;
     gap: 20px;
  }
+
+ .fourth-section {
+    background-color: #95FF8D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+ }
+
+ .fourth-section p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+ }
