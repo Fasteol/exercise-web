@@ -7,3 +7,27 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.hero a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.navbar a {
+  font-size: 1.5rem;
+}
+
+.heading3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  color: white;
+}
