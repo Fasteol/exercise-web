@@ -153,6 +153,8 @@
   background-image: url("../assets/img/footer.png");
   height: 100vh;
   padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -197,4 +199,45 @@ footer {
 .heading-footer {
   font-size: 6rem;
   color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    /* Style untuk tampilan landscape */
+    .container-footer {
+      gap: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar a, .heading3 {
+      font-size: 1.3rem;
+    }
+
+    .heading1 {
+      font-size: 3rem;
+    }
+
+    .container-hero {
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+
+    .container-secondary-hero .desc {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .third-hero {
+      flex-wrap: wrap;
+    }
+
+    .heading-footer {
+      font-size: 2rem;
+    }
+
+    .container-footer {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
 }
