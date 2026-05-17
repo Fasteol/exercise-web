@@ -1,0 +1,153 @@
+/* hero section start */
+
+.hero {
+  background-image: url("../assets/img/thumbnail-3.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading1 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 20px 20px 0 20px;
+  justify-content: space-between;
+}
+
+.navbar a {
+  font-size: 1.5rem;
+}
+
+.heading3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: white;
+}
+/* hero section end */
+
+/* container hero start*/
+
+.container {
+  height: 100%;
+}
+
+.container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* container hero end*/
+
+/* secondary-section start */
+
+.secondary-section {
+  background-color: #000000;
+  padding: 10rem 30rem;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.card-address {
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+
+.card-address label,
+.card-address p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+.card-time {
+  font-family: "Roboto Flex", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+}
+
+.card-time li {
+  font-family: "Roboto Flex", sans-serif;
+  margin: 0 20px;
+}
+
+/* secondary-section end */
+
+
+/* footer start */
+
+
+.footer {
+    background-color: #95FF8D;
+    height: 100vh;
+    padding: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.contact label,
+.socmed label,
+.contact p a,
+.socmed p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  color: black;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.socmed {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.socmed-icon {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.container-footer {
+  display: flex;
+  gap: 30rem;
+}
+
+.heading-footer {
+  font-size: 6rem;
+  color: black;
+}
+
+
+
+
+/* footer end */
