@@ -112,9 +112,18 @@ button{
 .footer{
     background-image: url(/assets/img/footer.png) ;
     height: 100vh;
+    flex-direction: column;
+   justify-content: space-between;
 }
-.uppper-section{
-     display: flex;
+.text-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upper-section{
+     display: grid;
+     grid-template-columns: 1fr 1.3fr;
 }
 
 .upper-content1 span,.upper-content1 p,.upper-content2 p{
@@ -123,23 +132,20 @@ button{
     font-weight: 300;
     font-size: 12px;
 }
-/* .upper-content1 {
+.upper-content1,.upper-content2 {
     padding:20px 20px;
-    display: inline-block;
-} */
+}
 
-/* .upper-content2{
-     justify-self: center;
-     align-items: center;
 
-} */
 .social-button{
-    /* padding:0px 0px; */
+    padding:0px 0px;
 }
 .footer-section{
    color: white;
    font-size: 4rem;
    text-align: bottom;
+   display: flex;
+   
 
    
 }
